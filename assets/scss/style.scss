@@ -27,6 +27,31 @@ body {
     }
 }
 
+.complex_iframe {
+    width: 80vw;
+    height: auto;
+    margin: 3vw;
+
+    h1 {
+        margin-bottom: 3vw;
+    }
+
+    div {
+        box-sizing: content-box;
+        width: 596px;
+        height: 722px;
+        padding: 2vw 4vw 2vw 4vw;
+        margin-left: 6vw;
+        background-color: #b9b5b5;
+    }
+
+    iframe {
+        width: 596px;
+        height: 722px;
+
+    }
+}
+
 .tags {
     width: 680px;
     height: 430px;
@@ -88,6 +113,7 @@ body {
     sans-serif;
     width: 596px;
     height: 722px;
+    background-color: white;
 
     .banner {
         width: 596px;
@@ -184,14 +210,15 @@ body {
                 margin-right: 0;
                 margin-left: 5px;
 
-                :first-child{
+                :first-child {
                     background-color: #8fd5d8;
                 }
-                :nth-child(2){
+
+                :nth-child(2) {
                     background-color: #9147f9;
                 }
 
-                :nth-child(3){
+                :nth-child(3) {
                     background-color: #f34;
                 }
 
