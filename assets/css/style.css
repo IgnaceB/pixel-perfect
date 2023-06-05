@@ -61,6 +61,17 @@ body {
   margin: 0 5px 14px 5px;
 }
 
+.complex {
+  font-family: Calibri, "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@font-face {
+  font-family: vladivostok;
+  src: url(../fonts/vladivostok.regular.ttf);
+}
+.complex p {
+  font-family: vladivostok, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 
 
 /*# sourceMappingURL=style.css.map */
