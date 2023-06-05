@@ -25,6 +25,27 @@ body {
   margin-left: 10vw;
 }
 
+.complex_iframe {
+  width: 80vw;
+  height: auto;
+  margin: 3vw;
+}
+.complex_iframe h1 {
+  margin-bottom: 3vw;
+}
+.complex_iframe div {
+  box-sizing: content-box;
+  width: 596px;
+  height: 722px;
+  padding: 2vw 4vw 2vw 4vw;
+  margin-left: 6vw;
+  background-color: #b9b5b5;
+}
+.complex_iframe iframe {
+  width: 596px;
+  height: 722px;
+}
+
 .tags {
   width: 680px;
   height: 430px;
@@ -65,6 +86,7 @@ body {
   font-family: vladivostok, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   width: 596px;
   height: 722px;
+  background-color: white;
 }
 @font-face {
   font-family: vladivostok-bold;
@@ -175,6 +197,84 @@ body {
   padding-left: 8px;
   letter-spacing: 3px;
   color: white;
+}
+
+.jobs {
+  width: 897px;
+  height: 337px;
+  font-family: linguistics, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@font-face {
+  font-family: Linguistics-bold;
+  src: url(../fonts/LinguisticsPro-Bold.otf) format("opentype");
+}
+@font-face {
+  font-family: Linguistics;
+  src: url(../fonts/LinguisticsPro-Regular.otf) format("opentype");
+}
+@font-face {
+  font-family: Linguistics-italic;
+  src: url(../fonts/LinguisticsPro-Italic.otf) format("opentype");
+}
+@font-face {
+  font-family: Linguistics-bitalic;
+  src: url(../fonts/LinguisticsPro-BoldItalic.otf) format("opentype");
+}
+.jobs h1 {
+  width: 100%;
+  font-family: linguistics-bold;
+  font-size: 40px;
+  font-weight: 400;
+  padding: 20px;
+}
+.jobs hr {
+  color: #e4e4e4;
+  width: calc(100% - 20px);
+  margin-left: 20px;
+  height: 1px;
+  border: solid 1px;
+}
+.jobs .finder {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.jobs .finder .research {
+  width: 61%;
+}
+.jobs .finder .research div {
+  display: flex;
+  line-height: 38px;
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+.jobs .finder .research div:first-child {
+  display: flex;
+  line-height: 40px;
+  background-color: orange;
+  border: solid 2px black;
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+.jobs .finder .results {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  padding-right: 10px;
+}
+.jobs .finder .results p {
+  line-height: 40px;
 }
 
 
