@@ -11,7 +11,7 @@ body {
     width: 100vw;
 }
 
-.simple {
+.exo1 {
     width: 80vw;
     height: auto;
     margin: 3vw;
@@ -27,7 +27,7 @@ body {
     }
 }
 
-.complex_iframe {
+.exo2 {
     width: 80vw;
     height: auto;
     margin: 3vw;
@@ -48,6 +48,30 @@ body {
     iframe {
         width: 596px;
         height: 722px;
+
+    }
+}
+.exo3 {
+    width: 80vw;
+    height: auto;
+    margin: 3vw;
+
+    h1 {
+        margin-bottom: 3vw;
+    }
+
+    div {
+        box-sizing: content-box;
+        width: 897px;
+    height: 337px;
+        padding: 2vw 4vw 2vw 4vw;
+        margin-left: 6vw;
+        background-color: #b9b5b5;
+    }
+
+    iframe {
+        width: 897px;
+    height: 337px;
 
     }
 }
@@ -244,7 +268,7 @@ body {
 .jobs {
     width: 897px;
     height: 337px;
-
+    background-color: white;
     @font-face {
         font-family: Linguistics-bold;
         src: url(../fonts/LinguisticsPro-Bold.otf) format('opentype');

@@ -11,29 +11,29 @@ body {
   width: 100vw;
 }
 
-.simple {
+.exo1 {
   width: 80vw;
   height: auto;
   margin: 3vw;
 }
-.simple h1 {
+.exo1 h1 {
   margin-bottom: 3vw;
 }
-.simple iframe {
+.exo1 iframe {
   width: 680px;
   height: 430px;
   margin-left: 10vw;
 }
 
-.complex_iframe {
+.exo2 {
   width: 80vw;
   height: auto;
   margin: 3vw;
 }
-.complex_iframe h1 {
+.exo2 h1 {
   margin-bottom: 3vw;
 }
-.complex_iframe div {
+.exo2 div {
   box-sizing: content-box;
   width: 596px;
   height: 722px;
@@ -41,9 +41,30 @@ body {
   margin-left: 6vw;
   background-color: #b9b5b5;
 }
-.complex_iframe iframe {
+.exo2 iframe {
   width: 596px;
   height: 722px;
+}
+
+.exo3 {
+  width: 80vw;
+  height: auto;
+  margin: 3vw;
+}
+.exo3 h1 {
+  margin-bottom: 3vw;
+}
+.exo3 div {
+  box-sizing: content-box;
+  width: 897px;
+  height: 337px;
+  padding: 2vw 4vw 2vw 4vw;
+  margin-left: 6vw;
+  background-color: #b9b5b5;
+}
+.exo3 iframe {
+  width: 897px;
+  height: 337px;
 }
 
 .tags {
@@ -202,6 +223,7 @@ body {
 .jobs {
   width: 897px;
   height: 337px;
+  background-color: white;
   font-family: linguistics, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 @font-face {
