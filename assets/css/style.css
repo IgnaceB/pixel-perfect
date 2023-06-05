@@ -279,7 +279,7 @@ body {
 .jobs .finder .research div:first-child {
   display: flex;
   line-height: 40px;
-  background-color: orange;
+  background-color: #ffd244;
   border: solid 2px black;
   border-radius: 4px;
   padding-left: 15px;
