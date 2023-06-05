@@ -250,7 +250,7 @@ body {
   padding: 20px;
 }
 .jobs hr {
-  color: #e4e4e4;
+  color: rgba(228, 228, 228, 0.3843137255);
   width: calc(100% - 20px);
   margin-left: 20px;
   height: 1px;
@@ -261,11 +261,12 @@ body {
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  color: rgb(89, 86, 86);
 }
 .jobs .finder .research {
   width: 61%;
 }
-.jobs .finder .research div {
+.jobs .finder .research .categories {
   display: flex;
   line-height: 38px;
   border-radius: 4px;
@@ -276,7 +277,7 @@ body {
   font-weight: 600;
   font-size: 14px;
 }
-.jobs .finder .research div:first-child {
+.jobs .finder .research .categories:first-child {
   display: flex;
   line-height: 40px;
   background-color: #ffd244;

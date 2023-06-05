@@ -51,6 +51,7 @@ body {
 
     }
 }
+
 .exo3 {
     width: 80vw;
     height: auto;
@@ -63,7 +64,7 @@ body {
     div {
         box-sizing: content-box;
         width: 897px;
-    height: 337px;
+        height: 337px;
         padding: 2vw 4vw 2vw 4vw;
         margin-left: 6vw;
         background-color: #b9b5b5;
@@ -71,7 +72,7 @@ body {
 
     iframe {
         width: 897px;
-    height: 337px;
+        height: 337px;
 
     }
 }
@@ -269,6 +270,7 @@ body {
     width: 897px;
     height: 337px;
     background-color: white;
+
     @font-face {
         font-family: Linguistics-bold;
         src: url(../fonts/LinguisticsPro-Bold.otf) format('opentype');
@@ -306,7 +308,7 @@ body {
     }
 
     hr {
-        color: #e4e4e4;
+        color: #e4e4e462;
         width: calc(100% - 20px);
         margin-left: 20px;
         height: 1px;
@@ -318,11 +320,13 @@ body {
         padding: 20px;
         display: flex;
         justify-content: space-between;
+        color: rgb(89, 86, 86);
+
 
         .research {
             width: 61%;
 
-            div {
+            .categories {
                 display: flex;
                 line-height: 38px;
                 border-radius: 4px;
@@ -334,7 +338,7 @@ body {
                 font-size: 14px;
             }
 
-            div:first-child {
+            .categories:first-child {
                 display: flex;
                 line-height: 40px;
                 background-color: #ffd244;
@@ -353,12 +357,13 @@ body {
             font-family: sans-serif;
             font-weight: 600;
             font-size: 13px;
-            padding-right:10px;
-            p{
+            padding-right: 10px;
+
+            p {
                 line-height: 40px;
             }
         }
-       
+
     }
 }
 
