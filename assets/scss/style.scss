@@ -241,5 +241,102 @@ body {
 
 }
 
+.jobs {
+    width: 897px;
+    height: 337px;
+
+    @font-face {
+        font-family: Linguistics-bold;
+        src: url(../fonts/LinguisticsPro-Bold.otf) format('opentype');
+    }
+
+    @font-face {
+        font-family: Linguistics;
+        src: url(../fonts/LinguisticsPro-Regular.otf) format('opentype');
+    }
+
+    @font-face {
+        font-family: Linguistics-italic;
+        src: url(../fonts/LinguisticsPro-Italic.otf) format('opentype');
+    }
+
+    @font-face {
+        font-family: Linguistics-bitalic;
+        src: url(../fonts/LinguisticsPro-BoldItalic.otf) format('opentype');
+    }
+
+    font-family: linguistics,
+    'Gill Sans',
+    'Gill Sans MT',
+    Calibri,
+    'Trebuchet MS',
+    sans-serif;
+
+    h1 {
+        width: 100%;
+        font-family: linguistics-bold;
+        font-size: 40px;
+        font-weight: 400;
+        padding: 20px;
+
+    }
+
+    hr {
+        color: #e4e4e4;
+        width: calc(100% - 20px);
+        margin-left: 20px;
+        height: 1px;
+        border: solid 1px;
+    }
+
+    .finder {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        .research {
+            width: 61%;
+
+            div {
+                display: flex;
+                line-height: 38px;
+                border-radius: 4px;
+                padding-left: 15px;
+                padding-right: 15px;
+                justify-content: space-between;
+                font-family: sans-serif;
+                font-weight: 600;
+                font-size: 14px;
+            }
+
+            div:first-child {
+                display: flex;
+                line-height: 40px;
+                background-color: orange;
+                border: solid 2px black;
+                border-radius: 4px;
+                padding-left: 15px;
+                padding-right: 15px;
+                justify-content: space-between;
+                font-family: sans-serif;
+                font-weight: 600;
+                font-size: 14px;
+            }
+        }
+
+        .results {
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 13px;
+            padding-right:10px;
+            p{
+                line-height: 40px;
+            }
+        }
+       
+    }
+}
+
 
 /*# sourceMappingURL=style.scss.map */
