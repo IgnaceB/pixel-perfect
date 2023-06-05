@@ -10,7 +10,20 @@
 body {
     width: 100vw;
 }
-
+.simple{
+    width: 80vw;
+    height: auto;
+    margin:3vw;
+    
+    h1{
+        margin-bottom:3vw;
+    }
+    iframe{
+        width:680px;
+        height:430px;
+        margin-left:10vw;
+    }
+}
 .tags {
     width: 680px;
     height: 430px;
