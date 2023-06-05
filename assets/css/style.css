@@ -11,6 +11,20 @@ body {
   width: 100vw;
 }
 
+.simple {
+  width: 80vw;
+  height: auto;
+  margin: 3vw;
+}
+.simple h1 {
+  margin-bottom: 3vw;
+}
+.simple iframe {
+  width: 680px;
+  height: 430px;
+  margin-left: 10vw;
+}
+
 .tags {
   width: 680px;
   height: 430px;
